@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Collage</title>
+    <style>
+        body{
+            background-color: #2b2626;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 10px solid #fff;
+            position: relative;
+            margin-left: -50px;
+        }
+        .image-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .pic-1{
+            z-index: 100;
+        }
+        .pic-2{
+            z-index: 99;
+        }
+        .pic-3{
+            z-index: 98;
+        }
+        .pic-4{
+            z-index: 97;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="./Abdul-kalam.jpg" alt="image" class="pic-1">
+        <img src="./babasaheb-ambedkar.jpg" alt="image" class="pic-2">
+        <img src="./Ratan_Tata.jpg" alt="image" class="pic-3">
+        <img src="./virat_kohli.jpeg" alt="image" class="pic-4">
+    </div>
+</body>
+</html>

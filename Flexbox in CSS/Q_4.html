@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamil landing page</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            max-width: 1200px;
+            width: 100%;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 25px;
+            margin-bottom: 0;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .logo > img{
+            height: 30px;
+            width: 30px;
+        }
+        .logo > p{
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .button{
+            display: flex;
+            gap: 50px;
+        }
+        .b-1{
+            border: 0;
+            font-size: 15px;
+            background-color: transparent;
+            font-weight: 300;
+            color: #1a73e8;
+        }
+        .b-2{
+            padding: 10px 20px;
+            background-color: transparent;
+            font-size: 15px;
+            font-weight: 300;
+            color: #1a73e8;
+            border: 0.5px solid #1f1f1f5e;
+            border-radius: 4px;
+        }
+        .b-3{
+            padding: 10px 20px;
+            background-color: #1a73e8;
+            font-size: 15px;
+            font-weight: 300;
+            color: #fff;
+            border: 0.5px solid #1f1f1f5e;
+            border-radius: 4px;
+        }
+        hr{
+            border: 0.2px solid #1f1f1f41;
+            margin-top: 0;
+        }
+        main{
+            display: flex;
+            justify-content: space-around;
+            gap: 100px;
+            margin-bottom: 100px;
+        }
+        .section-1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 40%;
+            padding: 0 30px;
+        }
+        .heading{
+            font-size: 50px;
+            margin-bottom: 0;
+        }
+        .description{
+            margin-bottom: 20px;
+        }
+        .home-button{
+            margin-top: 20px;
+            display: flex;
+            gap: 50px;
+        }
+        .section-2{
+            display: flex;
+            width: 60%;
+            justify-content: center;
+        }
+        .section-2 > img{
+            width: 100%;
+        }
+        nav:hover{
+            box-shadow: 10px 5px 5px #c8e9f3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <img src="./logo-gmail.png" alt="Logo">
+                <p>Gmail</p>
+            </div>
+            <div class="button">
+                <button class="b-1">For Work</button>
+                <button class="b-2">Sign In</button>
+                <button class="b-3">Create an account</button>
+            </div>
+        </nav>
+        <hr>
+        <main>
+            <section class="section-1">
+                <p class="heading">Secure, smart, and easy to use email</p>
+                <p class="description">Get more done with Gmail. Now integrated with Google Chat, Google Meet, and more, all in one place.</p>
+                <div class="home-button">
+                    <button class="b-3">Create an account</button>
+                    <button class="b-1">For Work</button>
+                </div>
+            </section>
+            <section class="section-2">
+                <img src="./gmail-pic.webp" alt="About">
+            </section>
+        </main>
+        <hr>
+    </div>
+</body>
+</html>
